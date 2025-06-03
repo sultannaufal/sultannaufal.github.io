@@ -1,0 +1,24 @@
+{
+  "name": "knowpals.com",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build --mode production",
+    "preview": "vite preview",
+    "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.1",
+    "vite": "^6.0.5",
+    "vite-plugin-html-minifier": "^1.0.5",
+    "vite-plugin-obfuscator": "^1.0.5"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1"
+  }
+}
